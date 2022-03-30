@@ -8,7 +8,7 @@ public class Main {
 
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("First Niyfuyfuyfuamwdwwe: ");
+		System.out.println("First Name: ");
 		String FirstName = scanner.nextLine();
 		System.out.println("Sur Name: ");
 		String SurName = scanner.nextLine();
