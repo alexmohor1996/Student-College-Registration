@@ -12,6 +12,10 @@ public class Result extends Students{
 		Students.surNames()[7] = "Madalina";
 		Students.surNames()[8] = "Maria";
 		Students.surNames()[9] = "Cristiana";
+		
+		for (int i=0; i<Students.surNames().length; i++) {
+			System.out.println(Students.surNames()[i]);
+		}
 
 	}
 	
