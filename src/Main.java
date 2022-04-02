@@ -12,11 +12,7 @@ public class Main {
 		int choice = scanner.nextInt();
 		
 		if (choice == 1) {
-			for (int i=0; i<Students.firstNames().length; i++) {
-				
-				Arrays.sort(Students.grades());
-				System.out.println(Students.firstNames()[i]+ " "+Students.surNames()[i] +" - "+Students.grades()[i]);
-			}
+			Result.showAll();
 		}
 		else if (choice == 2) {
 			System.out.println("Please enter your First Name, Sur Name to see if you have been admitted");

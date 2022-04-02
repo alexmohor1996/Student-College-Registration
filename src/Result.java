@@ -30,6 +30,10 @@ public class Result extends Students{
 		Students.ages()[7] = 27;
 		Students.ages()[8] = 28;
 		Students.ages()[9] = 29;
+		
+		for (int i=0; i<Students.ages().length; i++) {
+			System.out.println((Students.ages()[i]));
+		}
 	}
 	
 	static void showCities() {
@@ -43,6 +47,10 @@ public class Result extends Students{
 		Students.cities()[7] = "Suceava";
 		Students.cities()[8] = "Bacau";
 		Students.cities()[9] = "Sibiu";
+		
+		for (int i=0; i<Students.cities().length; i++) {
+			System.out.println(Students.cities()[i]);
+		}
 	}
 	
 	static void showCNP() {
@@ -56,6 +64,10 @@ public class Result extends Students{
 		Students.CNPs()[7] = 1960363350024L;
 		Students.CNPs()[8] = 1935135450024L;
 		Students.CNPs()[9] = 1946444523224L;
+		
+		for (int i=0; i<Students.CNPs().length; i++) {
+			System.out.println(Students.CNPs()[i]);
+		}
 	}
 	
 	static void showAddress() {
@@ -69,6 +81,10 @@ public class Result extends Students{
 		Students.Address()[7] = "Gura Leului";
 		Students.Address()[8] = "Strada Negru Voda";
 		Students.Address()[9] = "Strada Potasiului";
+		
+		for (int i=0; i<Students.Address().length; i++) {
+			System.out.println(Students.Address()[i]);
+		}
 	}
 	
 	static void showPhones() {
@@ -82,6 +98,10 @@ public class Result extends Students{
 		Students.phones()[7] = 83983984939L;
 		Students.phones()[8] = 39893899349L;
 		Students.phones()[9] = 89135981894L;
+		
+		for (int i=0; i<Students.phones().length; i++) {
+			System.out.println(Students.phones()[i]);
+		}
 	}
 	
 	static void showGrades() {
@@ -95,6 +115,17 @@ public class Result extends Students{
 		Students.grades()[7] = 7.69;
 		Students.grades()[8] = 6.82;
 		Students.grades()[9] = 8.90;
+		
+		for (int i=0; i<Students.grades().length; i++) {
+			System.out.println(Students.grades()[i]);
+		}
+	}
+	
+	static void showAll() {
+		System.out.println("#  |   Nume    |   Prenume |  Varsta |  Adresa |  Oras |  CNP  |  Numar de telefon | Nota admitere\n");
+		for (int i=0; i<Students.firstNames().length; i++) {
+			System.out.println(i+1+". | "+Students.firstNames()[i]+" - "+Students.surNames()[i]+" - "+Students.ages()[i]+" - "+Students.Address()[i]+ " - "+Students.cities()[i]+" - "+Students.CNPs()[i]+" - "+Students.phones()[i]+" - "+Students.grades()[i]);
+		}
 	}
 	
 }
