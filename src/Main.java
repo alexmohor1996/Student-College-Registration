@@ -7,7 +7,7 @@ public class Main {
 		
 		System.out.println("Hello, welcome to the Harvard College Graduation");
 		System.out.println("What would you like to do?");
-		System.out.println("1. Admitted students list\n2. Check admit");
+		System.out.println("1. Admitted students list\n2. Check admission");
 		Scanner scanner = new Scanner(System.in);
 		int choice = scanner.nextInt();
 		
